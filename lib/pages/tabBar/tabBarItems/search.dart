@@ -45,7 +45,7 @@ class Search extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset('assets/images/search.png',color: Colors.black,),
-          const SizedBox(width: 8),
+          const SizedBox(width: 8,),
           Expanded(
             child: TextField(
               focusNode: searchFieldNode,
